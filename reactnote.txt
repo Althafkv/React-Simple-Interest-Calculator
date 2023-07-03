@@ -1,0 +1,41 @@
+
+
+                    REACT - Front End Technology
+                ------------------------------------
+
+                   Commands
+                --------------
+
+                 1. Create Project : npx create-react-app project-name
+                 2. Run Project : npm start
+                 3. Install material ui : npm install @mui/material @emotion/react @emotion/styled
+
+                   Feautures
+                ---------------
+
+                 1. Component Based Approach
+                 2. JSX (JavaScript XML)
+                 3. Virtual DOM   
+                 4. Faster
+                 5. Front End Technology Diffrence
+
+                  Angular                 React                  Vue
+                -------------------------------------------------------
+                Framework               Library               Framework               
+                 - Google                 - Facebook            - Open Source
+                Typescript              JavaScript            JavaScript
+                Real DOM                Virtual DOM           Virtual DOM
+                Two Way Binding         One Way Binding       Two Way Binding
+
+                6. Components
+                    - Types
+                        - Functional Based Component / State less Components
+                        - Class Based Component / Stateful Components
+
+                7. State : Used to hold values and can be shared with its components 
+                8. React Hooks (pre defined function)
+                    - useState : used to create state  
+                            syntax : const [state-name,function-name used to update state] = useState(initial-value) 
+                9. Props : Is an object which is used to access state from parent in child
+                10. Event Binding
+                11. Conditional Rendering               

@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(223,172,228,1) 0%, rgba(116,96,228,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    background-color: white;
+    width: 550px;
+    border-radius: 10px;
+    padding: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading_text{
+    font-size: 10px;
+    font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading_text p{
+    padding-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.total-amount-card{
+    width: 450px;
+    height: 150px;
+    background-color: yellow;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text{
+    padding-top: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text h3{ 
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.card-text p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+.input-filed{
+    margin-top: 30px;
+    width: 450px;
+}
+
+#outlined-basic{
+    width: 425px;
+}
+
+.btnGroup{
+    margin-top: 40px;
+}
+
+
+.btn{
+    width: 200px;
+    height: 50px;
 }
